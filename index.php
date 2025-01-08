@@ -21,7 +21,7 @@ include 'templates/header.php';
                 </tr>
             </thead>
             <tbody>
-    <!---->
+    
                 <?php foreach ($equipamentos as $equipamento): ?>
                     <tr>
                         <td><?= strtoupper($equipamento["id"]) ?></td>
